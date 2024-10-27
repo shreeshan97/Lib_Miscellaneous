@@ -1,0 +1,190 @@
+(footprint "SW-TACT-342"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "24b7109e-cb53-4494-8c31-0d441b69acb3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SW-TACT-342"
+		(at 0 2.032 0)
+		(layer "F.Fab")
+		(uuid "73570534-db81-4896-8ed7-a1fd89c130ff")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d275d6e-37dd-4a21-80ee-68faa1a70c18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca83d257-48e3-4afe-aef2-a012eee42155")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f15cd58-e15d-4e1f-8aaf-608cd349a951")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.7 -1.5)
+		(end 2.7 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cb1f83a9-7b9b-475d-85e6-63b727f66e7d")
+	)
+	(fp_line
+		(start -1.95 -1.45)
+		(end 1.95 -1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "01937622-b2b2-4e7c-aee2-b04d41fb9844")
+	)
+	(fp_line
+		(start 1.95 1.45)
+		(end -1.95 1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b4d566c-475b-4bec-a3b6-8014a159b391")
+	)
+	(fp_circle
+		(center -2.87368 -0.014)
+		(end -2.79736 -0.014)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "63c0efc4-b127-4423-8626-d82d2e1682bb")
+	)
+	(fp_line
+		(start -1.95 -1.45)
+		(end 1.95 -1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bfe2ad2-63da-4759-ba95-4621c8b8d6ef")
+	)
+	(fp_line
+		(start -1.95 1.45)
+		(end -1.95 -1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "834cb86f-819b-417e-ae66-0e0996e89787")
+	)
+	(fp_line
+		(start 1.95 -1.45)
+		(end 1.95 1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02cf9457-600d-4d48-a08a-a370f995a4a1")
+	)
+	(fp_line
+		(start 1.95 1.45)
+		(end -1.95 1.45)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b78ce09a-da30-430f-9563-db00ae3e9db3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72e675f6-3a67-42e2-92cf-ecb04823cf92")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 0 90)
+		(size 2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e064eb00-7db0-4094-994c-9687a3563493")
+	)
+	(pad "2" smd rect
+		(at 2.1 0 90)
+		(size 2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "95ecba56-5c24-458f-83c5-9dc3d273674a")
+	)
+	(model "${KIPRJMOD}/Library/Lib_Miscellaneous/3DModels/SW-TACT-342.stp"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
