@@ -89,7 +89,7 @@
 		(layer "F.Fab")
 		(uuid "7e52c385-87ed-4a9a-971b-836e2841d683")
 	)
-	(fp_text user "${REFERENCE}"
+	(fp_text user "${VALUE}"
 		(at 0 -2.032 0)
 		(unlocked yes)
 		(layer "F.SilkS")
