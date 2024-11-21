@@ -1,0 +1,300 @@
+(footprint "SWT-6X6X5-RA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WS-TATU</b><br> THT Tact Switch 6x6 mm Right Angled Type with ground terminal")
+	(property "Reference" "REF**"
+		(at 0 -3.683 0)
+		(layer "F.SilkS")
+		(uuid "a1cad853-acab-4e08-b13a-a97b1a5b8d10")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SWT-6X6X5-RA"
+		(at 0 2.159 0)
+		(layer "F.Fab")
+		(uuid "8c112458-dbf5-4fe3-b884-2b5920fbd3e1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c97c6bc6-8d03-4f96-99f2-2772b5ff6d74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e53ca1e0-24df-4065-b561-4dc29fca8629")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d535e974-d4c2-4027-b052-3a48ddec843e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.8 -2.85)
+		(end 3.8 -2.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fe447aa-1cdd-4a81-84f0-708f135afaf3")
+	)
+	(fp_line
+		(start -3.8 -2.3)
+		(end -3.8 -2.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64458aa1-0de5-42ea-b6d8-70b0a7b87537")
+	)
+	(fp_line
+		(start -3.8 -0.2)
+		(end -3.8 3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58271444-7391-4af4-9600-341b75eea485")
+	)
+	(fp_line
+		(start -3.8 3.9)
+		(end 3.8 3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d987b07f-b041-4656-9682-02127f6ddf89")
+	)
+	(fp_line
+		(start 3.8 -2.85)
+		(end 3.8 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79fe4392-cd5e-4c7d-8323-acaff8cf0b63")
+	)
+	(fp_line
+		(start 3.8 3.9)
+		(end 3.8 -0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c12a5132-30b1-4305-80db-30be06daf814")
+	)
+	(fp_circle
+		(center -2.2 -1.8)
+		(end -2.1 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a90f0134-a789-4546-8e47-72028c021674")
+	)
+	(fp_rect
+		(start -4.45 -3.05)
+		(end 4.45 4.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c3ccaecb-5032-456d-9b7f-3a1d2fbf1ca3")
+	)
+	(fp_line
+		(start -3.7 -2.75)
+		(end 3.7 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15cd333b-6c97-4df2-8651-87f18ad6e40c")
+	)
+	(fp_line
+		(start -3.7 3.8)
+		(end -3.7 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "620bd85f-97e1-41e9-a263-a6d5afa39ee2")
+	)
+	(fp_line
+		(start -3.7 3.8)
+		(end 3.7 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d17b7e8e-d58e-478e-8beb-6265c7b0f7c5")
+	)
+	(fp_line
+		(start -1.75 3.8)
+		(end -1.75 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "956e0376-4bc1-48a6-8456-067bacf5e063")
+	)
+	(fp_line
+		(start -1.75 5.1)
+		(end 1.75 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7aad969b-dc8f-4b08-bcb6-1439b3fe8173")
+	)
+	(fp_line
+		(start 1.75 5.1)
+		(end 1.75 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b06abcf0-3a78-4a5b-a7ea-4a64760fc294")
+	)
+	(fp_line
+		(start 3.7 -2.75)
+		(end 3.7 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8d84888-8dd9-419b-8377-7e40973f2cf2")
+	)
+	(fp_text user "switch edge"
+		(at 0 4.91 0)
+		(layer "F.Fab")
+		(uuid "ab47aede-c986-489c-9292-71386a18f1b9")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "pcb edge"
+		(at 0 3.556 0)
+		(layer "F.Fab")
+		(uuid "b1f6e0c2-d3d7-44e5-9adc-0a3e2eb67743")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef062d64-6249-4941-b938-567a52d67bff")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.5 -1.25)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4b732a1a-7c26-4f39-a30d-40c0beb7f8b2")
+	)
+	(pad "2" thru_hole circle
+		(at -2.25 1.25)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "beb27c61-cec4-43df-814d-61af0cad5029")
+	)
+	(pad "3" thru_hole circle
+		(at 2.25 1.25)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4ae4fad9-3609-4234-b0ad-e465c1ba4dd4")
+	)
+	(pad "4" thru_hole circle
+		(at 3.5 -1.25)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0c4ed5b2-5b63-4a45-baa7-abc59aa1e18c")
+	)
+	(model "${KIPRJMOD}/Library/Lib_Miscellaneous/3DModels/SWT-6X6X4-RA.step"
+		(offset
+			(xyz 0 -1.25 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
