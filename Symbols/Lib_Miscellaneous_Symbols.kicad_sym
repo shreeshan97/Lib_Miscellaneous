@@ -370,26 +370,8 @@
 			)
 		)
 		(symbol "B0505S-1WR3_0_1"
-			(pin power_out line
-				(at 0 0 0)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 0 -6.35 0)
+				(at 0 0 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -399,6 +381,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -7.62 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -425,7 +425,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 -6.35 180)
+				(at 29.21 -7.62 180)
 				(length 5.08)
 				(name "0V"
 					(effects
@@ -446,7 +446,7 @@
 		(symbol "B0505S-1WR3_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 24.13 -8.89)
+				(end 24.13 -10.16)
 				(stroke
 					(width 0)
 					(type solid)
